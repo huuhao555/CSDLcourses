@@ -1,0 +1,72 @@
+@use "sass:map";
+@import "../../../styles/pages/theme.scss";
+
+.footer-container {
+  background-color: #f8f9fa;
+  padding: 2rem 1rem;
+  text-align: center;
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #0056b3;
+  }
+
+  p {
+    color: #333;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .about-section,
+  .contact-section,
+  .social-section {
+    margin-bottom: 1rem;
+  }
+
+  .social-section {
+    .social-icons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+
+      .social-icon {
+        color: #0056b3;
+        font-size: 0.9rem;
+        text-decoration: none;
+
+        &:hover {
+          color: #004494;
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    color: #666;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    .row {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .about-section,
+    .contact-section,
+    .social-section {
+      padding: 1rem 0;
+    }
+  }
+}
