@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "6727db510c2a686ec34014b3"
+  },
+  "name": "Node & ExpressJS",
+  "description": "Khóa học cơ bản về lập trình web bằng Node.js và Express",
+  "price": 1200000,
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/6.png",
+  "quantityInStock": 1,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "67287660617ce4871d17b86f"
+  },
+  "name": "HTML CSS từ Zero đến Hero",
+  "description": "Khóa học cơ bản về lập trình web bằng HTML CSS từ Zero đến Hero",
+  "price": 2000000,
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/2.png",
+  "quantityInStock": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672876aa617ce4871d17b870"
+  },
+  "name": "Lập Trình JavaScript Cơ Bản",
+  "description": "Khóa học cơ bản về Lập Trình JavaScript Cơ Bản",
+  "price": 2500000,
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/1.png",
+  "quantityInStock": 1,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6728778a617ce4871d17b871"
+  },
+  "name": "Responsive Với Grid System",
+  "description": "Khóa học cơ bản về Responsive Với Grid System",
+  "price": 1520000,
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/3.png",
+  "quantityInStock": 1,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "672877db617ce4871d17b872"
+  },
+  "name": "Xây Dựng Website với ReactJS",
+  "description": "Khóa học cơ bản về Xây Dựng Website với ReactJS",
+  "price": 2500000,
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/13/13.png",
+  "quantityInStock": 2,
+  "__v": 6
+},
+{
+  "_id": {
+    "$oid": "67287963617ce4871d17b873"
+  },
+  "name": "Lập trình C++ cơ bản, nâng cao",
+  "description": "Khóa học cơ bản về Lập trình C++ cơ bản, nâng cao",
+  "price": 2500000,
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/21/63e1bcbaed1dd.png",
+  "quantityInStock": 2,
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "672879a2617ce4871d17b874"
+  },
+  "name": "Làm việc với Terminal & Ubuntu",
+  "description": "Khóa học cơ bản về Làm việc với Terminal & Ubuntu",
+  "price": 2500000,
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/14/624faac11d109.png",
+  "quantityInStock": 1,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "67287c79617ce4871d17b875"
+  },
+  "name": "Lập Trình JavaScript Nâng Cao",
+  "description": "Khóa học cơ bản về Lập Trình JavaScript Nâng Cao",
+  "price": 2500000,
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/12.png",
+  "quantityInStock": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67287cb9617ce4871d17b876"
+  },
+  "name": "HTML CSS Pro",
+  "description": "Khóa học cơ bản về lập trình web bằng HTML CSS Pro",
+  "price": 20000000,
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png",
+  "quantityInStock": 3,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "67287d25617ce4871d17b877"
+  },
+  "name": "Ngôn ngữ Sass",
+  "description": "Khóa học cơ bản về Ngôn ngữ Sass",
+  "price": 2000000,
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/27/64e184ee5d7a2.png",
+  "quantityInStock": 2,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "67287d57617ce4871d17b878"
+  },
+  "name": "JavaScript Pro",
+  "description": "Khóa học về JavaScript Pro",
+  "price": 2000000,
+  "image": "https://files.fullstack.edu.vn/f8-prod/courses/19/66aa28194b52b.png",
+  "quantityInStock": 2,
+  "__v": 1
+}]
