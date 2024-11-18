@@ -124,4 +124,64 @@ const purchaseCourse = async (req, res) => {
   }
 };
 
-module.exports = { create, getAll, getById, purchaseCourse };
+const updateCourse = async (req, res) => {
+  try {
+    const { id } = req.params; // Lấy id từ URL
+    const { name, description, price, image, quantityInStock } = req.body;
+
+    // Kiểm tra nếu người dùng gửi price hoặc quantityInStock là số âm
+    if (price <= 0 || quantityInStock <= 0) {
+      return res.status(400).json({
+        message: "price and quantityInStock must be positive numbers"
+      });
+    }
+
+    // Tìm và cập nhật khóa học
+    const updatedCourse = await Courses.findByIdAndUpdate(
+      id,
+      { name, description, price, image, quantityInStock },
+      { new: true, runValidators: true }
+    );
+
+    if (!updatedCourse) {
+      return res.status(404).json({ message: "Course not found" });
+    }
+
+    res.status(200).json({
+      message: "Course updated successfully",
+      course: updatedCourse
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "Failed to update course",
+      error: error.message
+    });
+  }
+};
+
+const deleteCourse = async (req, res) => {
+  try {
+    const { id } = req.params; // Lấy id từ URL
+
+    // Tìm và xóa khóa học
+    const deletedCourse = await Courses.findByIdAndDelete(id);
+
+    if (!deletedCourse) {
+      return res.status(404).json({ message: "Course not found" });
+    }
+
+    res.status(200).json({
+      message: "Course deleted successfully",
+      course: deletedCourse
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "Failed to delete course",
+      error: error.message
+    });
+  }
+};
+
+
+
+module.exports = { create, getAll, getById, purchaseCourse, updateCourse, deleteCourse };
